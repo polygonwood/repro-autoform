@@ -70,7 +70,7 @@ Template.info.helpers({
     console.log(schema);
     return schema;
   },
-  textHelper() {
-    return "This is a helper";
-  },
+  // textHelper() {
+  //   return "This is a helper";
+  // },
 });
