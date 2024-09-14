@@ -25,6 +25,7 @@ mdg:validated-method
 aldeed:schema-index
 communitypackages:autoform-bootstrap4
 aldeed:autoform@8.0.0-rc.4
+polygonwood:mytype
 
 hot-module-replacement@0.5.4  # Update code in development without reloading the page
 blaze-hot               # Update files using Blaze's API with HMR

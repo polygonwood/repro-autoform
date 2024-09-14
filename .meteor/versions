@@ -63,6 +63,7 @@ mongo-id@1.0.9
 npm-mongo@4.17.4
 observe-sequence@2.0.0
 ordered-dict@1.2.0
+polygonwood:mytype@0.0.1
 promise@1.0.0
 raix:eventemitter@1.0.0
 random@1.2.2

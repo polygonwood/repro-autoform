@@ -56,6 +56,13 @@ Template.info.helpers({
       date: {
         type: Date,
         label: "Date",
+      },
+      myfield: {
+        type: String,
+        label: "My Field",
+        autoform: {
+          type: "mytype",
+        }
       }
     },
       // { tracker: Tracker }
