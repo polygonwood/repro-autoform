@@ -13,6 +13,10 @@ AutoForm.addInputType('mytype', {
     valueOut: function () {
         return this.val();
     },
+    contextAdjust: function (context) {
+        console.log('context', context);
+        return context;
+    }
 });
 
 // Template.mytypetemplate.helpers({

@@ -43,10 +43,6 @@ Template.info.helpers({
         label: "Name",
         autoform: {
           someOption: "someValue",
-          // someObject : {
-          //   someNestedOption: "someNestedValue",
-          //   someNestedOption2: "someNestedValue2"
-          // },
         }
       },
       age: {
@@ -58,10 +54,14 @@ Template.info.helpers({
         label: "Date",
       },
       myfield: {
-        type: String,
+        type: Date,
         label: "My Field",
         autoform: {
           type: "mytype",
+          someObject: {
+            someNestedOption: "someNestedValue",
+            someNestedOption2: "someNestedValue2"
+          },
         }
       }
     },
